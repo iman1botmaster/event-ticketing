@@ -1,0 +1,15 @@
+html, body, #root { min-height: 100%; }
+body { margin: 0; }
+a { color: inherit; }
+
+@media print {
+  .no-print, .layout-chrome { display: none !important; }
+  body { background: #fff !important; }
+  .print-area { background: #fff !important; box-shadow: none !important; }
+  .print-area, .print-area .MuiTypography-root, .print-area td, .print-area th { color: #111 !important; }
+  body[data-printing="dialog"] #root { display: none !important; }
+  body[data-printing="dialog"] .MuiBackdrop-root { display: none !important; }
+  body[data-printing="dialog"] .MuiDialog-root { position: static !important; }
+  body[data-printing="dialog"] .MuiDialog-container,
+  body[data-printing="dialog"] .MuiDialog-paper { height: auto !important; overflow: visible !important; box-shadow: none !important; margin: 0 !important; max-width: 100% !important; }
+}

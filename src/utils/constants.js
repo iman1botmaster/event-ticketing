@@ -1,0 +1,11 @@
+export const EVENT_STATUSES = ['Draft', 'Published', 'Upcoming', 'Ongoing', 'Completed', 'Cancelled'];
+export const BOOKABLE = ['Published', 'Upcoming', 'Ongoing']; // statuses that accept registrations
+export const ATTENDANCE_STATUSES = ['Registered', 'Checked In', 'Not Checked In', 'Cancelled'];
+export const REG_STATUSES = ['Confirmed', 'Cancelled'];
+export const TICKET_STATUSES = ['Reserved', 'Confirmed', 'Used', 'Cancelled'];
+export const PAYMENT_STATUSES = ['Paid', 'Pending', 'Refunded'];
+export const GENDERS = ['Female', 'Male', 'Other'];
+export const TICKET_NAMES = ['Regular', 'VIP', 'Student', 'Early Bird', 'Corporate', 'Guest'];
+export const MAX_TICKETS = 10; // maximum tickets in one registration
+export const NEAR_CAPACITY = 80; // % occupancy that counts as "approaching capacity"
+export const CHART_COLORS = ['#0E6B5C', '#D9962B', '#3B7DD8', '#C2477A', '#7A5CC7', '#5BA55B', '#E0673C', '#2C9CAB'];
