@@ -7,5 +7,5 @@ export const PAYMENT_STATUSES = ['Paid', 'Pending', 'Refunded'];
 export const GENDERS = ['Female', 'Male', 'Other'];
 export const TICKET_NAMES = ['Regular', 'VIP', 'Student', 'Early Bird', 'Corporate', 'Guest'];
 export const MAX_TICKETS = 10; 
-export const NEAR_CAPACITY = 80; // % occupancy that counts as "approaching capacity"
+export const NEAR_CAPACITY = 80; gi
 export const CHART_COLORS = ['#0E6B5C', '#D9962B', '#3B7DD8', '#C2477A', '#7A5CC7', '#5BA55B', '#E0673C', '#2C9CAB'];
